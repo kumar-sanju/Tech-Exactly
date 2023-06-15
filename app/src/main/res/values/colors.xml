@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#48bd77</color>
+    <color name="colorPrimaryDark">#48bd77</color>
+    <color name="colorAccent">#48bd77</color>
+
+    <color name="color4">#61636A</color>
+
+    <color name="color7">#5A6B87</color>
+
+    <color name="color8">#919EB6</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="putatoe_background">#419fa6</color>
+
+
+</resources>
