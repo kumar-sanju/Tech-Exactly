@@ -1,0 +1,40 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/selectImagesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Images" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/imageRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/selectImagesButton"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here is your PDF file Path"
+        android:textAlignment="center"
+        android:layout_below="@+id/imageRecyclerView"
+        />
+
+    <Button
+        android:id="@+id/convertToPdfButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert to PDF"
+        android:layout_below="@+id/textView"
+        android:enabled="false" />
+
+</RelativeLayout>
